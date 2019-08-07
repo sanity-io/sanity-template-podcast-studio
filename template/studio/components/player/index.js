@@ -2,7 +2,7 @@ import React, { Fragment } from "react";
 import DefaultLabel from 'part:@sanity/components/labels/default'
 import { FormBuilderInput } from "part:@sanity/form-builder";
 
-import Player from './player'
+import Player from './Player'
 
 const WrappedDefaultInput = props => {
     const { type = {}, value } = props;
