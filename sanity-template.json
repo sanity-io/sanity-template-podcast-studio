@@ -31,7 +31,7 @@
       },
       "previewMedia": {
         "type": "image",
-        "src": "assets/studio-00.png",
+        "src": "assets/studio.jpg",
         "alt": "A mock preview image"
       }
     }
