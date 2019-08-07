@@ -1,6 +1,6 @@
 # <#< sanity.projectTitle >#>
 
-_A template starter with a clean Studio._
+_A starter for podcast studio._
 
 Deployed from [sanity.io/create](https://www.sanity.io/create/?template=sanity-io%2Fsanity-template-clean).
 
