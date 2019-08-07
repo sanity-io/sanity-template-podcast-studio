@@ -4,7 +4,7 @@
   "description": "Manage your podcast with Sanity.io",
   "previewMedia": {
     "type": "image",
-    "src": "assets/frontend.jpg",
+    "src": "assets/studio.jpg",
     "alt": "A screenshot of the Podcast Studio."
   },
   "technologies": [
