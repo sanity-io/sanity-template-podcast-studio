@@ -1,0 +1,76 @@
+{
+  "version": 1,
+  "title": "Podcast with Nuxt.js",
+  "description": "Podcast website in Vue.js with RSS.",
+  "previewMedia": {
+    "type": "image",
+    "src": "assets/frontend.jpg",
+    "alt": "A screenshot of the Podcast with Nuxt.js application."
+  },
+  "technologies": [
+    {
+      "id": "nuxt",
+      "name": "Nuxt.js",
+      "url": "https://nuxtjs.org/"
+    },
+    {
+      "id": "netlify",
+      "name": "Netlify",
+      "url": "https://www.netlify.com/"
+    }
+  ],
+  "deployments": [
+    {
+      "id": "studio",
+      "type": "studio",
+      "title": "Sanity Studio",
+      "description": "The Sanity Studio is where you edit and structure your content.",
+      "dir": "./studio",
+      "provider": {
+        "name": "netlify",
+        "config": {
+          "base": "studio",
+          "cmd": "npm run build && cp ./netlify.toml dist",
+          "dir": "studio/dist"
+        }
+      },
+      "previewMedia": {
+        "type": "image",
+        "src": "assets/studio-00.png",
+        "alt": "A mock preview image"
+      }
+    },
+    {
+      "id": "web",
+      "type": "web",
+      "title": "Podcast Website",
+      "description": "A bare bones podcast website that you can use as a starting point for your next podcast.",
+      "dir": "./web",
+      "requiredTokens": [
+        {
+          "role": "deploy-studio",
+          "label": "GraphQL API Deployer"
+        }
+      ],
+      "provider": {
+        "name": "netlify",
+        "requirements": ["build-hook"],
+        "config": {
+          "cmd": "npm run build-web",
+          "dir": "web/dist"
+        }
+      },
+      "previewMedia": {
+        "type": "image",
+        "src": "assets/frontend.jpg",
+        "alt": "A mock preview image"
+      },
+      "requiredCorsOrigins": [
+        {
+          "origin": "http://localhost:3000",
+          "allowCredentials": false
+        }
+      ]
+    }
+  ]
+}

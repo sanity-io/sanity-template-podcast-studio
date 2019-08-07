@@ -1,0 +1,42 @@
+{
+  "private": true,
+  "name": "<#< repository.name >#>-studio",
+  "version": "1.0.0",
+  "main": "package.json",
+  "author": "Sanity <hello@sanity.io>",
+  "scripts": {
+    "build": "sanity build",
+    "dev": "sanity start",
+    "test": "sanity check"
+  },
+  "dependencies": {
+    "@sanity/base": "^0.x",
+    "@sanity/cli": "^0.x",
+    "@sanity/components": "^0.x",
+    "@sanity/core": "^0.x",
+    "@sanity/dashboard": "^0.x",
+    "@sanity/default-layout": "^0.x",
+    "@sanity/default-login": "^0.x",
+    "@sanity/desk-tool": "^0.x",
+    "bcp47": "^1.1.2",
+    "prop-types": "^15.7.2",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-icons": "^3.7.0",
+    "react-media-player": "0.7.7",
+    "sanity-plugin-dashboard-widget-document-list": "^0.0.8",
+    "sanity-plugin-dashboard-widget-netlify": "^1.0.1"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.2",
+    "eslint": "^6.0.1",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-config-standard-react": "^7.0.2",
+    "eslint-plugin-import": "^2.18.0",
+    "eslint-plugin-node": "^9.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-react": "^7.14.2",
+    "eslint-plugin-standard": "^4.0.0",
+    "prettier-eslint-cli": "^5.0.0"
+  }
+}
