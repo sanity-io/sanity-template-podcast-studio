@@ -1,6 +1,6 @@
 {
   "repository": {
-    "name": "dev-sanity-nuxt-podcast",
+    "name": "dev-sanity-podcast",
     "owner": "sanity-io",
     "private": false
   },
@@ -17,7 +17,7 @@
   "userInput": {},
   "deployments": {
     "studio": {
-      "url": "https://sanity-nuxt-podcast-studio-rf4qpk9y.netlify.com/",
+      "url": "https://sanity-podcast-studio-rf4qpk9y.netlify.com/",
       "providerName": "netlify",
       "providerInfo": {
         "buildHookId": "5cc04d5199df1802277a6e91",
