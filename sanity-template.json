@@ -25,8 +25,8 @@
         "name": "netlify",
         "config": {
           "base": "studio",
-          "cmd": "npm run build && cp ./netlify.toml dist",
-          "dir": "studio/dist"
+          "dir": "dist",
+          "cmd": "npm run build && cp ./netlify.toml dist"
         }
       },
       "previewMedia": {
