@@ -1,7 +1,7 @@
 {
   "private": true,
   "name": "sanity-podcast-studio",
-  "version": "1.0.38",
+  "version": "1.0.39",
   "main": "package.json",
   "author": "Sanity <hello@sanity.io>",
   "scripts": {
@@ -13,10 +13,10 @@
     "@sanity/base": "^1.149.10",
     "@sanity/cli": "^1.149.9",
     "@sanity/components": "^1.149.10",
-    "@sanity/core": "^1.149.9",
+    "@sanity/core": "^1.149.11",
     "@sanity/dashboard": "^1.149.10",
     "@sanity/default-layout": "^1.149.10",
-    "@sanity/default-login": "^1.149.7",
+    "@sanity/default-login": "^1.149.11",
     "@sanity/desk-tool": "^1.149.10",
     "bcp47": "^1.1.2",
     "prop-types": "^15.7.2",
