@@ -1,7 +1,7 @@
 {
   "private": true,
   "name": "sanity-podcast",
-  "version": "1.0.25",
+  "version": "1.0.26",
   "scripts": {
     "build": "lerna run build --parallel",
     "build-studio": "(cd studio && npm run build)",
