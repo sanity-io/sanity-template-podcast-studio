@@ -1,7 +1,7 @@
 {
   "private": true,
   "name": "sanity-podcast-studio",
-  "version": "1.0.53",
+  "version": "1.0.54",
   "main": "package.json",
   "author": "Sanity <hello@sanity.io>",
   "scripts": {
