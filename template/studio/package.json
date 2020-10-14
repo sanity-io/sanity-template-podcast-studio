@@ -1,7 +1,7 @@
 {
   "private": true,
   "name": "sanity-podcast-studio",
-  "version": "1.0.54",
+  "version": "1.0.55",
   "main": "package.json",
   "author": "Sanity <hello@sanity.io>",
   "scripts": {
@@ -20,8 +20,8 @@
     "@sanity/desk-tool": "^2.0.0",
     "bcp47": "^1.1.2",
     "prop-types": "^15.7.2",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
     "react-icons": "^3.10.0",
     "react-media-player": "0.7.9",
     "sanity-plugin-dashboard-widget-document-list": "^0.0.11",
